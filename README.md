@@ -1,0 +1,1 @@
+# GameStop_Promotional_Email
