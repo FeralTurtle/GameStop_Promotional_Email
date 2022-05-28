@@ -3,4 +3,12 @@
         border: 2px solid gray;
         border-style: dotted hidden hidden hidden;
     }
+    &__highlight {
+        font-weight: bold;
+        color: red;
+    }
+    &__sup {
+        font-size: 0.6rem;
+        vertical-align: super;
+    }
 }
