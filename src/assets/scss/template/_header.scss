@@ -1,6 +1,7 @@
 .header {
     &__text {
         font-size: 0.7rem;
+        margin-bottom: 0;
         hyphens: none;
         color: gray;
     }
@@ -16,8 +17,24 @@
         }
     }
     &__btn {
-        text-align: center;
-        padding: 4px;
+        float: right;
+    }
+    &__btn>tbody>tr>td>table>tbody>tr>td {
+        border: none;
         background-color: lightgray;
+        a {
+            padding: 6px 4px;
+            font-size: 0.7rem;
+            &:link {
+                color: black;
+            }
+            &:visited {
+                color: black;
+            }
+        }
+    }
+    .columns {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
     }
 }

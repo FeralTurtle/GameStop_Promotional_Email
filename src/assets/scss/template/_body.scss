@@ -6,11 +6,16 @@ body, html, .body {
   &__links {
     text-align: center;
   } a {
+    padding: 0px 6px;
+    font-weight: bold;
     &:link {
       color: black;
     }
     &:visited {
       color: black;
     }
+  }
+  span {
+    font-size: 1.5rem;
   }
 }
