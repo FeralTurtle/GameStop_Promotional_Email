@@ -1,0 +1,23 @@
+.header {
+    &__text {
+        font-size: 0.7rem;
+        hyphens: none;
+        color: gray;
+    }
+    &__browser-link {
+        font-size: 0.6rem;
+        text-decoration: underline;
+        color: red;
+        &:link {
+            color: red;
+        }
+        &:visited {
+            color: red;
+        }
+    }
+    &__btn {
+        text-align: center;
+        padding: 4px;
+        background-color: lightgray;
+    }
+}

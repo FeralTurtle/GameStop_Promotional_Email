@@ -1,0 +1,16 @@
+body, html, .body {
+  background: $white !important;
+}
+
+.deals-main {
+  &__links {
+    text-align: center;
+  } a {
+    &:link {
+      color: black;
+    }
+    &:visited {
+      color: black;
+    }
+  }
+}

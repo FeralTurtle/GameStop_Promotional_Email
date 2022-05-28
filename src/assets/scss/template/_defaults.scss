@@ -1,0 +1,12 @@
+.divider {
+    border: 2px solid gray;
+    border-style: dotted hidden hidden hidden;
+}
+
+.defaults {
+    &__btn {
+        background-color: red;
+        color: white;
+        padding: 13px 8px;
+    }
+}
