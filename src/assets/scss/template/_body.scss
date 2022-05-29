@@ -33,3 +33,15 @@ body, html, .body {
     margin-top: 7px !important;
   }
 }
+
+.deals2 {
+  &__description {
+    text-align: center;
+    margin-bottom: 0;
+    &--bump-top {
+      text-align: center;
+      margin-bottom: 0;
+      margin-top: 22px;
+    }
+  }
+}
