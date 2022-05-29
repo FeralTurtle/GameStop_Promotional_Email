@@ -1,16 +1,16 @@
 .defaults {
     &__divider {
         &--dotted {
-            border: 2px solid lightgray;
+            border: 2px solid $light-gray;
             border-style: dotted hidden hidden hidden;
         }
         &--solid {
             height: 1px;
-            background-color: lightgray !important;
+            background-color: $light-gray !important;
         }
     }
     &__highlight {
-        color: red;
+        color: $red;
     }
     &__sup {
         font-size: 0.6rem;

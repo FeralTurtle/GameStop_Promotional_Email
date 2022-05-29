@@ -9,10 +9,10 @@ body, html, .body {
     padding: 0px 6px;
     font-weight: bold;
     &:link {
-      color: black;
+      color: $black;
     }
     &:visited {
-      color: black;
+      color: $black;
     }
   }
   span {

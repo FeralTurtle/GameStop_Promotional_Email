@@ -6,10 +6,10 @@
             font-size: 0.9rem;
             font-weight: bold;
             &:link {
-                color: black;
+                color: $black;
             }
             &:visited {
-                color: black;
+                color: $black;
             }
         }
         span {
@@ -40,31 +40,31 @@
         &--gray {
             &:link {
                 text-decoration: underline;
-                color: gray;
+                color: $light-gray;
             }
             &:visited {
                 text-decoration: underline;
-                color: gray;
+                color: $light-gray;
             }
         }
         &--red {
             &:link {
                 text-decoration: underline;
-                color: red;
+                color: $anchor-red;
             }
             &:visited {
                 text-decoration: underline;
-                color: red;
+                color: $anchor-red;
             }
         }
         &--blue {
             &:link {
                 text-decoration: underline;
-                color: blue;
+                color: $blue;
             }
             &:visited {
                 text-decoration: underline;
-                color: blue;
+                color: $blue;
             }
         }
     }

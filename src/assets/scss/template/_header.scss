@@ -3,17 +3,16 @@
         font-size: 0.7rem;
         margin-bottom: 0;
         hyphens: none;
-        color: gray;
+        color: $light-gray;
     }
     &__browser-link {
         font-size: 0.6rem;
         text-decoration: underline;
-        color: red;
         &:link {
-            color: red;
+            color: $anchor-red;
         }
         &:visited {
-            color: red;
+            color: $anchor-red;
         }
     }
     &__btn {
@@ -21,15 +20,15 @@
     }
     &__btn>tbody>tr>td>table>tbody>tr>td {
         border: none;
-        background-color: lightgray;
+        background-color: $button-gray;
         a {
             padding: 6px 4px;
             font-size: 0.7rem;
             &:link {
-                color: black;
+                color: $black;
             }
             &:visited {
-                color: black;
+                color: $black;
             }
         }
     }
