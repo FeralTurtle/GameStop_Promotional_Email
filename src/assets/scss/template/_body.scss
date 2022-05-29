@@ -25,19 +25,8 @@ body, html, .body {
     text-align: center;
     font-weight: bold;
   }
-  &__description {
-    text-align: center;
-    margin-bottom: 0;
-  }
   &__btn {
     margin-top: 7px !important;
-  }
-}
-
-.deals2 {
-  &__description {
-    text-align: center;
-    margin-bottom: 0;
   }
 }
 
@@ -45,5 +34,17 @@ body, html, .body {
   &__header {
     text-align: center;
     font-weight: bold;
+  }
+}
+
+.deals4 {
+  &__header {
+    font-weight: bold;
+  }
+  &__btn>tbody>tr>td>table>tbody>tr>td>a {
+    padding: 7px 38px;
+  }
+  &__buy1get1 {
+    height: 35px;
   }
 }
