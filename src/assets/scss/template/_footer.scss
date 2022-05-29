@@ -28,3 +28,44 @@
         padding: 0px 12px;
     }
 }
+
+.footer-text-container {
+    &__line {
+        margin-bottom: 0;
+        hyphens: none;
+        text-align: center;
+        font-size: 0.7rem;
+    }
+    &__anchor-text {
+        &--gray {
+            &:link {
+                text-decoration: underline;
+                color: gray;
+            }
+            &:visited {
+                text-decoration: underline;
+                color: gray;
+            }
+        }
+        &--red {
+            &:link {
+                text-decoration: underline;
+                color: red;
+            }
+            &:visited {
+                text-decoration: underline;
+                color: red;
+            }
+        }
+        &--blue {
+            &:link {
+                text-decoration: underline;
+                color: blue;
+            }
+            &:visited {
+                text-decoration: underline;
+                color: blue;
+            }
+        }
+    }
+}
