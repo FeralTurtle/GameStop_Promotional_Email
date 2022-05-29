@@ -1,7 +1,13 @@
 .defaults {
     &__divider {
-        border: 2px solid gray;
-        border-style: dotted hidden hidden hidden;
+        &--dotted {
+            border: 2px solid lightgray;
+            border-style: dotted hidden hidden hidden;
+        }
+        &--solid {
+            height: 1px;
+            background-color: lightgray !important;
+        }
     }
     &__highlight {
         color: red;

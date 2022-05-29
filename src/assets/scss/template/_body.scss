@@ -24,6 +24,7 @@ body, html, .body {
   &__header {
     text-align: center;
     font-weight: bold;
+    margin-bottom: 0;
   }
   &__btn {
     margin-top: 7px !important;
@@ -40,6 +41,7 @@ body, html, .body {
 .deals4 {
   &__header {
     font-weight: bold;
+    margin-bottom: 0;
   }
   &__btn>tbody>tr>td>table>tbody>tr>td>a {
     padding: 7px 38px;
