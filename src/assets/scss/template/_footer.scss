@@ -1,0 +1,25 @@
+.store-links-container {
+    .store-links-wrapper>table>tbody>tr>th {
+        text-align: center;
+        a {
+            padding: 0px 4px;
+            font-size: 0.9rem;
+            font-weight: bold;
+            &:link {
+                color: black;
+            }
+            &:visited {
+                color: black;
+            }
+        }
+        span {
+            font-size: 1.5rem;
+        }
+    }
+}
+
+.socials-links {
+    .social-icon {
+        display: inline;
+    }
+}
