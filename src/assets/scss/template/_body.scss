@@ -38,10 +38,12 @@ body, html, .body {
   &__description {
     text-align: center;
     margin-bottom: 0;
-    &--bump-top {
-      text-align: center;
-      margin-bottom: 0;
-      margin-top: 22px;
-    }
+  }
+}
+
+.deals3 {
+  &__header {
+    text-align: center;
+    font-weight: bold;
   }
 }
