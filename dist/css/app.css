@@ -307,14 +307,9 @@ table.button:active table a {
     padding-right: 16px !important;
   }
 
-  th.small-4 {
+  th.small-6 {
     display: inline-block !important;
-    width: 33.333333% !important;
-  }
-
-  th.small-8 {
-    display: inline-block !important;
-    width: 66.666666% !important;
+    width: 50% !important;
   }
 
   th.small-12 {
