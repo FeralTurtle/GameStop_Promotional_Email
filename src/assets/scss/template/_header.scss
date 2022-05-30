@@ -9,6 +9,7 @@
     &__browser-link {
         font-size: 0.6rem;
         text-decoration: underline;
+        color: $anchor-red;
         &:link {
             color: $anchor-red;
         }
@@ -18,6 +19,10 @@
     }
     &__btn {
         float: right;
+        /* Small only */
+        @media only screen and (max-width: #{$global-breakpoint}) {
+            float: left;
+        }
     }
     &__btn>tbody>tr>td>table>tbody>tr>td {
         border: none;
